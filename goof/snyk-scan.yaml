@@ -13,9 +13,9 @@ spec:
         image: snyk/snyk-cli:npm
         command: ["/bin/sh","-c"]
         args:
-          - git clone https://github.com/jiajunngjj/circleci-argocd-goof.git
+          - git clone https://github.com/jiajunngjj/argocd-goof.git
           - snyk auth $SNYK_TOKEN
-          - snyk iac test circleci-argocd-goof/goof/goof-deployment.yaml
+          - snyk iac test argocd-goof/goof/goof-deployment.yaml
         env:
           - name: SNYK_TOKEN
             valueFrom:
