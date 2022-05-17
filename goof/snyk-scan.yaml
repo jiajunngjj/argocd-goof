@@ -1,7 +1,7 @@
 apiVersion: batch/v1
 kind: Job
 metadata:
-  name: before
+  name: snyk-iac-scan
   annotations:
     argocd.argoproj.io/hook: PreSync
 spec:
