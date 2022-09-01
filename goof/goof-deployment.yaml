@@ -34,7 +34,7 @@ spec:
         app: goof
     spec:
       containers:
-      - image: jiajunngjj/docker-goof:0.1.9
+      - image: jiajunngjj/docker-goof:0.1.10
         name: goof
         ports:
         - containerPort: 3001
